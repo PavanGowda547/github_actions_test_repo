@@ -8,5 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Say hello
-        run: echo "Hello from the Github actions!"
+      - name: First Message
+        run: echo "Hello from the Github Actions!"
+
+      - name: Second Message
+        run: echo "I am learning CI/CD"
+
+      - name: Third Message
+        run: echo "I am going to use this for my data engineering project"
