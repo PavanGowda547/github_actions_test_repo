@@ -21,5 +21,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: First Message
-        run: "The task is completed"
+      - name: First Message of new job
+        run: echo "The task of new job is completed"
