@@ -40,6 +40,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+
+      - name: List all files
         run: ls -la
 
       - name: Python environment setup
