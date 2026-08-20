@@ -29,7 +29,7 @@ jobs:
 
     steps:
       - name: Pushing files
-        uses: actions/checkout@4
+        uses: actions/checkout@v4
 
       - name: list all the files
         run: ls -la
