@@ -16,3 +16,10 @@ jobs:
 
       - name: Third Message
         run: echo "I am going to use this for my data engineering project"
+
+  new_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: First Message
+        run: "The task is completed"
