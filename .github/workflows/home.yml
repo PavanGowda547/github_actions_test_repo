@@ -23,3 +23,13 @@ jobs:
     steps:
       - name: First Message of new job
         run: echo "The task of new job is completed"
+
+  pushing_files_actions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Pushing files
+        uses: actions/checkout@4
+
+      - name: list all the files
+        run: ls -la
