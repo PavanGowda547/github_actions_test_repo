@@ -33,3 +33,18 @@ jobs:
 
       - name: list all the files
         run: ls -la
+
+  python_jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        run: actions/checkout@v4
+
+      - name: Python environment setup
+        run: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run .py files
+        run: python main.py
